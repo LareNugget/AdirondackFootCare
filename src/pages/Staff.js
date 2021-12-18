@@ -23,7 +23,7 @@ function Staff() {
             <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid black'}}>
 
                 <div className="w-full h-64 p-4 lg:h-5/6 lg:w-1/3 mx-auto my-auto">
-                    <img className="h-full mx-auto" src={staff_galluzzo} alt="" style={{borderRadius: '10px', border: '3px solid black'}} />
+                    <img className="h-full mx-auto" src={staff_galluzzo} alt="Dr. Galluzzo" style={{borderRadius: '10px', border: '3px solid black'}} />
                 </div>
                     
 
@@ -53,7 +53,7 @@ function Staff() {
             <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid black'}}>
 
                 <div className="w-full h-64 p-4 lg:h-5/6 lg:w-1/3 mx-auto my-auto">
-                    <img className="h-full mx-auto" src={staff_mason} alt="" style={{borderRadius: '10px', border: '3px solid black'}} />
+                    <img className="h-full mx-auto" src={staff_mason} alt="Dr. Mason" style={{borderRadius: '10px', border: '3px solid black'}} />
                 </div>
                     
 
@@ -82,7 +82,7 @@ function Staff() {
             <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid black'}}>
 
                 <div className="w-full h-64 p-4 lg:h-5/6 lg:w-1/3 mx-auto my-auto">
-                    <img className="h-full mx-auto" src={staff_candida} alt="" style={{borderRadius: '10px', border: '3px solid black'}} />
+                    <img className="h-full mx-auto" src={staff_candida} alt="Candida" style={{borderRadius: '10px', border: '3px solid black'}} />
                 </div>
                     
 
@@ -109,7 +109,7 @@ function Staff() {
             <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid black'}}>
 
                 <div className="w-full h-64 p-4 lg:h-5/6 lg:w-1/3 mx-auto my-auto">
-                    <img className="h-full mx-auto" src={staff_mark} alt="" style={{borderRadius: '10px', border: '3px solid black'}} />
+                    <img className="h-full mx-auto" src={staff_mark} alt="Mark" style={{borderRadius: '10px', border: '3px solid black'}} />
                 </div>
                     
 
