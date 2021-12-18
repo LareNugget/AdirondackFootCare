@@ -17,7 +17,7 @@ function Products() {
                 
                 {/* Custom Orthotics */}
                 <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid white', backgroundColor: 'rgba(0, 0, 0, 0.75)'}}>
-
+                    Custom Orthotics
                 </div>
 
                 {/* Support Braces */}
