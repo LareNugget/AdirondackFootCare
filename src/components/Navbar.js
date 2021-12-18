@@ -17,11 +17,14 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
                 <Link to='/'>
                     <img className="h-full pl-4 pb-1" src={AdirondackLogo} alt="" onClick={(isOpen) ? {toggle} : {}} />
                 </Link>
+                <Link to='/'>
                     <div className="h-full text-xs  font-bold" style={{fontFamily: 'CortisaProLight', letterSpacing: '1px'}}>
                         <p className="block text-sm md:text-lg mt-2 md:mt-2">ADIRONDACK FOOT CARE</p>
                         <p className="hidden md:inline-block text-xs" style={{letterSpacing: '2px'}}>954 Route 146, Clifton Park NY</p>
                         <p className="block md:hidden text-xs" style={{letterSpacing: '2px'}}>(518) 383 - 0302</p>
                     </div>
+                </Link>
+                
                 
             </div>
 
@@ -29,7 +32,7 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
             <div className="h-full w-1/3 lg:hidden" >
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
-                    className="h-8 m-2 md:mt-6 mx-auto cursor-pointer" 
+                    className="h-8 m-4 mx-auto cursor-pointer" 
                     fill="none" 
                     viewBox="0 0 24 24" 
                     stroke="currentColor"
@@ -45,12 +48,12 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
                 </svg>
             </div>
 
-            {/* If MOBILE => Nav hamburger 
-            <div className="h-full w-1/3 md:hidden bg-blue-500">
-                HEY
+            <div className="hidden xl:text-sm lg:block lg:h-full lg:w-2/3 lg:text-xs text-center" style={{fontFamily: 'CortisaProLight', letterSpacing: '1px'}}>
+                <Link to='/about' className="inline-block h-full w-1/4 pt-6 hover:bg-green-100" style={{fontWeight: 'bold', letterSpacing: '1px'}}>ABOUT OUR PRACTICE</Link>
+                <Link to='/staff' className="inline-block h-full w-1/4 pt-6 hover:bg-green-100" style={{fontWeight: 'bold', letterSpacing: '1px'}}>STAFF</Link>
+                <Link to='/services' className="inline-block h-full w-1/4 pt-6 hover:bg-green-100" style={{fontWeight: 'bold', letterSpacing: '1px'}}>SERVICES</Link>
+                <Link to='/products' className="inline-block h-full w-1/4 pt-6 hover:bg-green-100" style={{fontWeight: 'bold', letterSpacing: '1px'}}>PRODUCTS</Link>
             </div>
-
-            */}
         </nav>
     );
 }
