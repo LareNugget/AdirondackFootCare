@@ -9,9 +9,9 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Services from './pages/Services';
 import Staff from './pages/Staff';
-import Home from './pages/Home';
 import Home2 from './pages/Home2';
 import Footer from './components/Footer';
+import patientPDF from './files/newPatientPacket.pdf';
 
 
 const classes = {
