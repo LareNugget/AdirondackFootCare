@@ -1,10 +1,9 @@
 import React from 'react';
 
 const classes = {
-    container: 'container mx-auto h-full mt-2 overflow-y-auto',
-    heading: 'h-8 w-11/12 md:w-1/2 lg:w-1/3 bg-green-900 text-white text-xs items-center text-center mx-auto mt-4 md:mt-8 pt-2',
-    bioCard: "m-4 lg:h-1/3 flex flex-col lg:flex-row bg-green-900",
-    bioDescription: "container p-4 text-white text-xs md:text-xs lg:text-sm xl:text-md",  
+    container: 'container mx-auto h-full pt-16 overflow-y-auto text-center',
+    heading: 'h-8 w-4/5 md:w-2/3 bg-green-900 text-white text-xs items-center text-center mx-auto mt-4 md:mt-8 pt-2 mb-2',
+    infoCard: "w-4/5 m-2 xl:w-1/3 h-24 bg-green-900 inline-flex bg-green-600",
 };
 
 function Products() {
@@ -12,23 +11,48 @@ function Products() {
         <div className={classes.container}>
             <div className={classes.bioContainer}>
                 <div className={classes.heading} style={{fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px', borderRadius: '10px', border: '2px solid black'}}>
-                    Podiatry Products Available Purchase!
+                    Products available for purchase!
                 </div>
                 
-                {/* Custom Orthotics */}
-                <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid white', backgroundColor: 'rgba(0, 0, 0, 0.75)'}}>
-
+                <div className={classes.infoCard} style={{borderRadius: '10px', border: '2px solid black', fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px'}}>
+                    <div className='h-full w-1/3 p-1'>
+                    </div>
+                    <div className='h-full w-2/3 text-center'>
+                        <div className='mt-6 text-white text-xs lg:text-sm lg:mt-4'>
+                            Creams
+                        </div>
+                    </div>
                 </div>
 
-                {/* Support Braces */}
-                <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid white', backgroundColor: 'rgba(0, 0, 0, 0.75)'}}>
-
+                <div className={classes.infoCard} style={{borderRadius: '10px', border: '2px solid black', fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px'}}>
+                    <div className='h-full w-1/3 p-1'>
+                    </div>
+                    <div className='h-full w-2/3 text-center'>
+                        <div className='mt-6 text-white text-xs lg:text-sm lg:mt-4'>
+                            Balms
+                        </div>
+                    </div>
                 </div>
 
-                {/* Dolorclast */}
-                <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid white', backgroundColor: 'rgba(0, 0, 0, 0.75)'}}>
+                <div className={classes.infoCard} style={{borderRadius: '10px', border: '2px solid black', fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px'}}>
+                    <div className='h-full w-1/3 p-1'>
+                    </div>
+                    <div className='h-full w-2/3 text-center'>
+                        <div className='mt-6 text-white text-xs lg:text-sm lg:mt-4'>
+                            Gels
+                        </div>
+                    </div>
                 </div>
 
+                <div className={classes.infoCard} style={{borderRadius: '10px', border: '2px solid black', fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px'}}>
+                    <div className='h-full w-1/3 p-1'>
+                    </div>
+                    <div className='h-full w-2/3 text-center'>
+                        <div className='mt-6 text-white text-xs lg:text-sm lg:mt-4'>
+                            Wraps
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

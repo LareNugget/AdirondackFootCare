@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import DropdownNav from './components/DropdownNav';
 import Router from 'react';
-import Background from './images/waitingroom.jpg';
+import Background from './images/waitingroom2.jpg';
 import { Switch, Route } from 'react-router-dom'; 
 import About from './pages/About';
 import Products from './pages/Products';
@@ -29,28 +29,21 @@ function App() {
 
 
   return (
-    <> 
-      <div className={classes.container} style={{height: '100vh', backgroundImage: `url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-        
-        <div style={{height: '5%'}}>
-          <Navbar toggle={toggle} />
-          <DropdownNav toggle={toggle} isOpen={isOpen} />
-        </div>
+      <div className={classes.container} style={{height: '100vh', backgroundImage: `url(${Background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>  
+        <Navbar toggle={toggle} />
+        <DropdownNav toggle={toggle} isOpen={isOpen} />
 
-        <div style={{height: '88%'}}>
-          <Switch>
-            <Route path='/' exact component={Home2} />
-            <Route path='/about' component={About} />
-            <Route path='/staff' component={Staff} />
-            <Route path='/services' component={Services} />
-            <Route path='/products' component={Products} />
-          </Switch>
-        </div>
-
+        <Switch>
+          <Route path='/' exact component={Home2} />
+          <Route path='/about' component={About} />
+          <Route path='/staff' component={Staff} />
+          <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+        </Switch>
 
         <Footer />
+        
       </div>
-    </>
   );
 }
 
