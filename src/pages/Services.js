@@ -20,20 +20,22 @@ function Services() {
                     Podiatry Services We Offer!
                 </div>
 
-                <div className={classes.infoCard} style={{fontWeight: 'bold', letterSpacing: '2px', borderRadius: '10px', border: '2px solid black'}}>
-                    <div className='h-24 md:h-full w-full md:w-1/4 p-1'>
-                        <img className="h-full mx-auto" src={bioFoam} alt="" style={{borderRadius: '10px', border: '3px solid black'}} />
-                    </div>
-                    <div className='h-1/2 md:h-full w-full md:w-3/4 text-center p-1'>
-                        <div className='mt-2 text-white text-xs lg:text-sm' style={{fontFamily: 'CortisaProLight'}}>
-                            Custom Orthotics
+                {/* 
+                    <div className={classes.infoCard} style={{fontWeight: 'bold', letterSpacing: '2px', borderRadius: '10px', border: '2px solid black'}}>
+                        <div className='h-24 md:h-full w-full md:w-1/4 p-1'>
+                            <img className="h-full mx-auto" src={bioFoam} alt="" style={{borderRadius: '10px', border: '3px solid black'}} />
                         </div>
+                        <div className='h-1/2 md:h-full w-full md:w-3/4 text-center p-1'>
+                            <div className='mt-2 text-white text-xs lg:text-sm' style={{fontFamily: 'CortisaProLight'}}>
+                                Custom Orthotics
+                            </div>
 
-                        <div className='mt-2 text-white text-xs lg:text-sm text-left'>
-                            Through the use of Bio Foam impression blocks, we capture an accurate impression of your foot as you walk on it. Using this impression, a customized orthotic insert can be created for your shoe!
+                            <div className='mt-2 text-white text-xs lg:text-sm text-left'>
+                                Through the use of Bio Foam impression blocks, we capture an accurate impression of your foot as you walk on it. Using this impression, a customized orthotic insert can be created for your shoe!
+                            </div>
                         </div>
                     </div>
-                </div>
+                */}
 
 
 
