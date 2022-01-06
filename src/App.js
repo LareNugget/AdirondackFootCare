@@ -7,11 +7,8 @@ import Services from './pages/Services';
 import Staff from './pages/Staff';
 import Home2 from './pages/Home2';
 import Footer from './components/Footer';
-<<<<<<< HEAD
 import { Layout } from './components/Layout';
-=======
 import patientPDF from './files/newPatientPacket.pdf';
->>>>>>> 3d58bc49230edea7fd2fedc5321d32e73bf4afbf
 
 
 
