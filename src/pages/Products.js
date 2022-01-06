@@ -14,6 +14,7 @@ function Products() {
                     Products available for purchase!
                 </div>
                 
+<<<<<<< HEAD
                 <div className={classes.infoCard} style={{borderRadius: '10px', border: '2px solid black', fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px'}}>
                     <div className='h-full w-1/3 p-1'>
                     </div>
@@ -22,6 +23,11 @@ function Products() {
                             Creams
                         </div>
                     </div>
+=======
+                {/* Custom Orthotics */}
+                <div className={classes.bioCard} style={{borderRadius: '20px', border: '2px solid white', backgroundColor: 'rgba(0, 0, 0, 0.75)'}}>
+                    Custom Orthotics
+>>>>>>> 3d58bc49230edea7fd2fedc5321d32e73bf4afbf
                 </div>
 
                 <div className={classes.infoCard} style={{borderRadius: '10px', border: '2px solid black', fontFamily: 'CortisaProLight', fontWeight: 'bold', letterSpacing: '2px'}}>
