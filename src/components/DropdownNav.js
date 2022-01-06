@@ -13,7 +13,7 @@ function DropdownNav({ toggle = {}, isOpen = 'false' }) {
             }
 
             onClick={toggle}
-            style={{outline: '1px solid black', backgroundColor: 'rgba(255, 255, 255, 0.8)'}}
+            style={{outline: '1px solid black', backgroundColor: 'rgba(255, 255, 255, 0.8)', position: 'fixed'}}
         >
             <Link to='/about' className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>INSURANCE</Link>
             <Link to='/staff' className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>MEET OUR STAFF</Link>

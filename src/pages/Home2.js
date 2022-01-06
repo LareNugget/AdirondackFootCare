@@ -1,7 +1,7 @@
 import React from 'react';
 import AdirondackLogo from '../images/adirondacklogo.png';
 import TreatmentRoom from '../images/treatmentroom.jpg';
-import FrontFacing from '../images/frontfacing.png';
+import FrontFacing from '../images/frontfacing.PNG';
 import { Link } from 'react-router-dom';
 import patientPDF from '../files/newPatientPacket.pdf';
 
