@@ -8,15 +8,17 @@ const classes = {
 
 
 function Navbar({ toggle = {}, isOpen = 'false' }) {
+    const scrollToTop = () => window.scrollTo(0,0);
+
     return (
         <div className="h-12 w-full md:h-16 flex" role='navigation' style={{outline: '2px solid black', backgroundColor: 'rgba(255, 255, 255, 1.0)', position: 'fixed'}}>
 
             {/* Logo/Name portion */}
             <div className="h-full w-2/3 lg:w-1/3 flex flex-row">
-                <Link to='/'>
+                <Link to='/' onClick={scrollToTop}>
                     <img className="h-full pl-4 pb-1" src={AdirondackLogo} alt="" onClick={(isOpen) ? {toggle} : {}} />
                 </Link>
-                <Link to='/'>
+                <Link to='/' onClick={scrollToTop}>
                     <div className="h-full text-xs  font-bold" style={{fontFamily: 'CortisaProLight', letterSpacing: '1px'}}>
                         <p className="block text-xs md:text-md lg:text-lg mt-2 md:mt-2">ADIRONDACK FOOT CARE</p>
                         <p className="hidden lg:inline-block text-xs" style={{letterSpacing: '2px'}}>954 Route 146, Clifton Park NY</p>
@@ -49,7 +51,7 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
 
             <div className="hidden xl:text-sm lg:block lg:h-full lg:w-3/4 lg:text-xs text-center" style={{fontFamily: 'CortisaProLight', letterSpacing: '1px'}}>
                 <div className="w-1/4 h-full p-2 inline-block" style={{fontWeight: 'bold', letterSpacing: '1px'}}>
-                    <Link to='/staff'>
+                    <Link to='/staff' onClick={scrollToTop}>
                         <div className='h-full border-2 border-black bg-green-400 pt-3'>
                             <div className=''>STAFF</div>
                         </div>
@@ -57,7 +59,7 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
                 </div>
 
                 <div className="w-1/4 h-full p-2 inline-block" style={{fontWeight: 'bold', letterSpacing: '1px'}}>
-                    <Link to='/services'>
+                    <Link to='/services' onClick={scrollToTop}>
                         <div className='h-full border-2 border-black bg-green-400 pt-3'>
                             <div className=''>SERVICES</div>
                         </div>
@@ -65,7 +67,7 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
                 </div>
 
                 <div className="w-1/4 h-full p-2 inline-block" style={{fontWeight: 'bold', letterSpacing: '1px'}}>
-                    <Link to='/products'>
+                    <Link to='/products' onClick={scrollToTop}>
                         <div className='h-full border-2 border-black bg-green-400 pt-3'>
                             <div className=''>PRODUCTS </div>
                         </div>
@@ -73,7 +75,7 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
                 </div>
 
                 <div className="w-1/4 h-full p-2 inline-block" style={{fontWeight: 'bold', letterSpacing: '1px'}}>
-                    <Link to='/about'>
+                    <Link to='/about' onClick={scrollToTop}>
                         <div className='h-full border-2 border-black bg-green-400 pt-3'>
                             <div className=''>INSURANCE</div>
                         </div>
