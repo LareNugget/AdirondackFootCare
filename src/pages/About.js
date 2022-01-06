@@ -31,7 +31,7 @@ function About() {
                     <div className='mt-6 text-white text-xs lg:text-sm lg:mt-4'>
                         CDPHP<br/>
                         CDPHP Medicare Choice<br/>
-                        CDPHP Medicade
+                        CDPHP Medicaid
                     </div>
                 </div>
             </div>
