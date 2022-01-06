@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import AdirondackLogo from '../images/adirondacklogo.png';
 
 const classes = {
-    navBar: "bg-green-200",
     navButton: "mx-2 px-2 h-7 hover:bg-gray-200 rounded-md"
 }
 
@@ -20,8 +19,8 @@ function Navbar({ toggle = {}, isOpen = 'false' }) {
                 <Link to='/'>
                     <div className="h-full text-xs  font-bold" style={{fontFamily: 'CortisaProLight', letterSpacing: '1px'}}>
                         <p className="block text-xs md:text-md lg:text-lg mt-2 md:mt-2">ADIRONDACK FOOT CARE</p>
-                        <p className="hidden md:inline-block text-xs" style={{letterSpacing: '2px'}}>954 Route 146, Clifton Park NY</p>
-                        <p className="block md:hidden text-xs" style={{letterSpacing: '2px'}}>(518) 383 - 0302</p>
+                        <p className="hidden lg:inline-block text-xs" style={{letterSpacing: '2px'}}>954 Route 146, Clifton Park NY</p>
+                        <p className="block lg:hidden text-xs" style={{letterSpacing: '2px'}}>(518) 383 - 0302</p>
                     </div>
                 </Link>
                 
