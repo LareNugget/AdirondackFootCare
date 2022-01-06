@@ -6,6 +6,9 @@ const classes = {
 }
 
 function DropdownNav({ toggle = {}, isOpen = 'false' }) {
+
+    const scrollToTop = () => window.scrollTo(0,0);
+
     return (
         <div 
             className={
@@ -15,10 +18,10 @@ function DropdownNav({ toggle = {}, isOpen = 'false' }) {
             onClick={toggle}
             style={{outline: '1px solid black', backgroundColor: 'rgba(255, 255, 255, 1)', position: 'fixed'}}
         >
-            <Link to='/about' className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>INSURANCE</Link>
-            <Link to='/staff' className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>MEET OUR STAFF</Link>
-            <Link to='/services' className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>OUR SERVICES</Link>
-            <Link to='/products' className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>OUR PRODUCTS</Link>
+            <Link to='/about' onClick={scrollToTop} className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>INSURANCE</Link>
+            <Link to='/staff' onClick={scrollToTop} className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>MEET OUR STAFF</Link>
+            <Link to='/services' onClick={scrollToTop} className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>OUR SERVICES</Link>
+            <Link to='/products' onClick={scrollToTop} className={classes.dropNavButton} style={{outline: '3px solid black', letterSpacing: '1px'}}>OUR PRODUCTS</Link>
         </div>
     )
 }
