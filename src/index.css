@@ -1,27 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind screens;
-
-
 @font-face {
-    font-family: "CortisaProBold";
-    src: local("CortisaProBold"),
-      url("./fonts/cortisa-pro/CortisaPro-Bold.ttf") format("truetype");
-    font-weight: normal;
+  font-family: "CortisaProBold";
+  src: local("CortisaProBold"),
+    url("./fonts/cortisa-pro/CortisaPro-Bold.ttf") format("truetype");
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "CortisaProLight";
-    src: local("CortisaProLight"),
-      url("./fonts/cortisa-pro/CortisaPro-Light.ttf") format("truetype");
-    font-weight: normal;
+  font-family: "CortisaProLight";
+  src: local("CortisaProLight"),
+    url("./fonts/cortisa-pro/CortisaPro-Light.ttf") format("truetype");
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "CortisaProRegular";
-    src: local("CortisaProRegular"),
-      url("./fonts/cortisa-pro/CortisaPro-Regular.ttf") format("truetype");
-    font-weight: normal;
+  font-family: "CortisaProRegular";
+  src: local("CortisaProRegular"),
+    url("./fonts/cortisa-pro/CortisaPro-Regular.ttf") format("truetype");
+  font-weight: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
