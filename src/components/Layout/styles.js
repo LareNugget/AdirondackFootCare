@@ -1,6 +1,6 @@
 import styled from "styled-components";
+import WaitingRoom from "../../images/waitingroom2.jpg";
 
-// WebsiteContainer Props
 export const WebsiteContainer = styled.div`
   height: 100vh;
   width: 100%;
@@ -8,10 +8,13 @@ export const WebsiteContainer = styled.div`
   background-color: gray;
 `;
 
-// PageContainer Props
-// NavbarHeight - height of navbar, inherited from the navbar component.
 export const PageContainer = styled.div`
-  overflow-y: auto;
-  height: calc(100% - 50px);
-  margin-top: 50px;
+  background-color: yellow;
+  height: 100%;
+
+  background-image: url(${WaitingRoom});
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: fixed;
 `;
