@@ -15,7 +15,13 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const ServiceCarousel = styled.div`
+export const RowContainer = styled.div`
   display: flex;
   flex-direction: column;
+
+  background-color: yellow;
+
+  @media (min-width: 800px) {
+    flex-direction: row;
+  }
 `;
