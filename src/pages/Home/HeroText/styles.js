@@ -11,7 +11,6 @@ export const Container = styled.div`
 
   @media (min-width: 800px) {
     align-items: flex-start; //contents centered on mobile, align left (start) when on desktop
-    padding: 30px;
     width: 50%;
   }
 
