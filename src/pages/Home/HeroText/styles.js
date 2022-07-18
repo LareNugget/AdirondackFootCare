@@ -11,15 +11,16 @@ export const Container = styled.div`
 
   @media (min-width: 800px) {
     align-items: flex-start; //contents centered on mobile, align left (start) when on desktop
-    padding: 100px;
+    padding: 30px;
+    width: 50%;
   }
 
   @media (min-width: 1000px) {
-    padding: 100px;
+    padding: 50px;
   }
 
   @media (min-width: 1200px) {
-    padding: 100px;
+    padding: 70px;
   }
 `;
 
@@ -27,7 +28,9 @@ export const Slogan = styled.h1`
   font-size: 2rem;
 `;
 
-export const Description = styled.p``;
+export const Description = styled.p`
+  max-width: 700px;
+`;
 
 export const ButtonContainer = styled.div`
   display: flex;
@@ -35,6 +38,10 @@ export const ButtonContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   gap: 10px;
+
+  @media (min-width: 400px) {
+    justify-content: left;
+  }
 
   button {
     background-color: hsla(134, 67%, 87%, 1);
