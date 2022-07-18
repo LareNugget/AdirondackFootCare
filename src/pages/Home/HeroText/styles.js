@@ -26,6 +26,11 @@ export const Container = styled.div`
 
 export const Slogan = styled.h1`
   font-size: 2rem;
+  text-align: center;
+
+  @media (min-width: 800px) {
+    text-align: left;
+  }
 `;
 
 export const Description = styled.p`
@@ -35,11 +40,11 @@ export const Description = styled.p`
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   gap: 10px;
 
-  @media (min-width: 400px) {
+  @media (min-width: 800px) {
     justify-content: left;
   }
 
