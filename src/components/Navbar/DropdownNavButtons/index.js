@@ -6,20 +6,20 @@ import { Link } from "react-router-dom";
 function DropdownNavButtons({ toggleDropdown, DropdownActive }) {
   return DropdownActive ? (
     <SC.DropdownButtonContainer>
-      <Link to="/staff">
-        <button onClick={toggleDropdown}>Staff</button>
+      <Link to="/staff" onClick={toggleDropdown}>
+        Staff
       </Link>
 
-      <Link to="/services">
-        <button onClick={toggleDropdown}>Services</button>
+      <Link to="/services" onClick={toggleDropdown}>
+        Services
       </Link>
 
-      <Link to="/products">
-        <button onClick={toggleDropdown}>Products</button>
+      <Link to="/products" onClick={toggleDropdown}>
+        Products
       </Link>
 
-      <Link to="/insurance">
-        <button onClick={toggleDropdown}>Insurance</button>
+      <Link to="/insurance" onClick={toggleDropdown}>
+        Insurance
       </Link>
     </SC.DropdownButtonContainer>
   ) : (
