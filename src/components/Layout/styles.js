@@ -9,9 +9,7 @@ export const WebsiteContainer = styled.div`
 `;
 
 export const PageContainer = styled.div`
-  background-color: yellow;
   height: 100%;
-
   background-image: url(${WaitingRoom});
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
