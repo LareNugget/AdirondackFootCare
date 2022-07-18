@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import Cort from "../fonts/cortisa-pro/CortisaPro-Regular.ttf";
 import Tajawal from "../fonts/Tajawal/Tajawal-Regular.ttf";
 //import font
 
