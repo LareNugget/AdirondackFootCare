@@ -7,19 +7,31 @@ function DropdownNavButtons({ toggleDropdown, DropdownActive }) {
   return DropdownActive ? (
     <SC.DropdownButtonContainer>
       <Link to="/staff" onClick={toggleDropdown}>
-        Staff
+        <SC.ButtonTitle>Staff</SC.ButtonTitle>
+        <SC.ButtonDescription>
+          Meet the team at Adirondack Foot Care
+        </SC.ButtonDescription>
       </Link>
 
       <Link to="/services" onClick={toggleDropdown}>
-        Services
+        <SC.ButtonTitle>Services</SC.ButtonTitle>
+        <SC.ButtonDescription>
+          Information about the podiatry services we provide
+        </SC.ButtonDescription>
       </Link>
 
       <Link to="/products" onClick={toggleDropdown}>
-        Products
+        <SC.ButtonTitle>Products</SC.ButtonTitle>
+        <SC.ButtonDescription>
+          View our podiatry products that are for sale
+        </SC.ButtonDescription>
       </Link>
 
       <Link to="/insurance" onClick={toggleDropdown}>
-        Insurance
+        <SC.ButtonTitle>Insurance</SC.ButtonTitle>
+        <SC.ButtonDescription>
+          View participating insurance providers
+        </SC.ButtonDescription>
       </Link>
     </SC.DropdownButtonContainer>
   ) : (
