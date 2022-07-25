@@ -12,7 +12,7 @@ function Services() {
       <SC.ServiceCardContainer>
         <hr />
         <SC.ServiceCard>
-          <img src={Dolorclast} alt="" />
+          <img src={Dolorclast} alt="Swiss Dolorclast" />
           <div>Swiss Dolorclast</div>
           <p>
             A state of the art treatment that utilizes electroshock technology
@@ -21,7 +21,7 @@ function Services() {
         </SC.ServiceCard>
         <hr />
         <SC.ServiceCard>
-          <img src={BioFoam} alt="" />
+          <img src={BioFoam} alt="BioFoam" />
           <div>Custom Orthotics</div>
           <p>
             Using BioFoam technology, we can create a custom model of your exact
@@ -30,7 +30,7 @@ function Services() {
         </SC.ServiceCard>
         <hr />
         <SC.ServiceCard>
-          <img src={SupportBraces} alt="" />
+          <img src={SupportBraces} alt="Support Braces" />
           <div>Support Braces</div>
           <p>
             We offer a variety of braces that provide support to key areas of
