@@ -51,6 +51,8 @@ export const ServiceCard = styled.div`
 
   img {
     height: 250px;
+    border-radius: 8px;
+    border: 2px solid black;
   }
 
   p {
