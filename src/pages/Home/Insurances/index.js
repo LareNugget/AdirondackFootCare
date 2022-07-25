@@ -17,31 +17,31 @@ function Insurances() {
 
       <SC.CardContainer>
         <SC.Card>
-          <img src={Aetna} alt="" />
+          <img src={Aetna} alt="Aetna" />
         </SC.Card>
         <SC.Card>
-          <img src={AARP} alt="" />
+          <img src={AARP} alt="AARP" />
         </SC.Card>
         <SC.Card>
-          <img src={Blueshield} alt="" />
+          <img src={Blueshield} alt="Blueshield" />
         </SC.Card>
         <SC.Card>
-          <img src={CDPHP} alt="" />
+          <img src={CDPHP} alt="CDPHP" />
         </SC.Card>
         <SC.Card>
-          <img src={Empire} alt="" />
+          <img src={Empire} alt="Empire" />
         </SC.Card>
         <SC.Card>
-          <img src={Medicare} alt="" />
+          <img src={Medicare} alt="Medicare" />
         </SC.Card>
         <SC.Card>
-          <img src={MVP} alt="" />
+          <img src={MVP} alt="MVP" />
         </SC.Card>
         <SC.Card>
-          <img src={Progressive} alt="" />
+          <img src={Progressive} alt="Progressive" />
         </SC.Card>
         <SC.Card>
-          <img src={Tricare} alt="" />
+          <img src={Tricare} alt="Tricare" />
         </SC.Card>
       </SC.CardContainer>
 
