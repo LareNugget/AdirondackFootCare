@@ -14,11 +14,9 @@ function Services() {
         <SC.ServiceCard>
           <img src={Dolorclast} alt="" />
           <div>Swiss Dolorclast</div>
-
           <p>
-            The Swiss Dolorclast method is a state of the art treatment that
-            utilizes electroshock technology to stimulate blood flow into areas
-            of the foot requiring healing.
+            A state of the art treatment that utilizes electroshock technology
+            to stimulate blood flow into areas of the foot requiring healing.
           </p>
         </SC.ServiceCard>
         <hr />
