@@ -16,33 +16,15 @@ function Insurances() {
       <SC.Header>Insurance We Accept</SC.Header>
 
       <SC.CardContainer>
-        <SC.Card>
-          <img src={Aetna} alt="Aetna" />
-        </SC.Card>
-        <SC.Card>
-          <img src={AARP} alt="AARP" />
-        </SC.Card>
-        <SC.Card>
-          <img src={Blueshield} alt="Blueshield" />
-        </SC.Card>
-        <SC.Card>
-          <img src={CDPHP} alt="CDPHP" />
-        </SC.Card>
-        <SC.Card>
-          <img src={Empire} alt="Empire" />
-        </SC.Card>
-        <SC.Card>
-          <img src={Medicare} alt="Medicare" />
-        </SC.Card>
-        <SC.Card>
-          <img src={MVP} alt="MVP" />
-        </SC.Card>
-        <SC.Card>
-          <img src={Progressive} alt="Progressive" />
-        </SC.Card>
-        <SC.Card>
-          <img src={Tricare} alt="Tricare" />
-        </SC.Card>
+        <img src={Aetna} alt="Aetna" />
+        <img src={AARP} alt="AARP" />
+        <img src={Blueshield} alt="Blueshield" />
+        <img src={CDPHP} alt="CDPHP" />
+        <img src={Empire} alt="Empire" />
+        <img src={Medicare} alt="Medicare" />
+        <img src={MVP} alt="MVP" />
+        <img src={Progressive} alt="Progressive" />
+        <img src={Tricare} alt="Tricare" />
       </SC.CardContainer>
 
       <SC.ButtonContainer>

@@ -20,20 +20,11 @@ export const CardContainer = styled.div`
   flex-wrap: wrap;
   gap: 5px;
   padding: 10px;
+  justify-content: center;
 
   @media (min-width: 1000px) {
     flex-direction: row;
     gap: 20px;
-  }
-`;
-
-export const Card = styled.div`
-  text-align: center;
-  margin: auto;
-
-  div {
-    font-size: 1.5em;
-    text-align: left;
   }
 
   img {
