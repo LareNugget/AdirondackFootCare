@@ -12,23 +12,25 @@ function Navbar() {
     setDropdownActive((prev) => !prev);
   };
 
+  // Nameplate - Business Logo, Name, Phone Number
+  // NavButtons - Desktop nav buttons for pages
+  // MenuButton = hamburger button to oped dropdown buttons.
+  // DropdownNavButtons - dropdown buttons on menu button press.
+
   return (
     <>
       <SC.Navbar>
-        <Nameplate toggleDropdown={toggleDropdown} />{" "}
-        {/* Business Logo, Name, Address */}
-        <NavButtons /> {/* Nav Buttons. VIEWS ON med+ screens */}
+        <Nameplate toggleDropdown={toggleDropdown} />
+        <NavButtons />
         <MenuButton
           toggleDropdown={toggleDropdown}
           DropdownActive={DropdownActive}
         />
-        {/* Menu Button. VIEWS ON small to med screens */}
       </SC.Navbar>
       <DropdownNavButtons
         toggleDropdown={toggleDropdown}
         DropdownActive={DropdownActive}
       />
-      {/* Dropdown Nav Buttons. VIEWS ON small to med screens */}
     </>
   );
 }

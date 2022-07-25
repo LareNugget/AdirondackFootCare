@@ -33,8 +33,4 @@ export const BusinessPhone = styled.div`
   justify-content: left;
   align-items: center;
   color: black;
-
-  div {
-    padding-top: 3px;
-  }
 `;
