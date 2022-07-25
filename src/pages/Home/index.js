@@ -1,21 +1,14 @@
 import React from "react";
 import * as SC from "./styles";
-import HeroText from "./HeroText";
-import HeroMap from "./HeroMap";
-import OfficeHours from "./OfficeHours";
+import Hero from "./Hero";
+import Hours from "./Hours";
 
 function Home() {
   return (
     <SC.Container>
-      <SC.HeroContainer>
-        <HeroText />
-        <HeroMap />
-      </SC.HeroContainer>
-
-      <SC.RowContainer>
-        <OfficeHours />
-        <OfficeHours />
-      </SC.RowContainer>
+      <Hero /> {/* Business Name + GMap Component, 60/40 split on desktop */}
+      <Hours />{" "}
+      {/* Picture of business in action + hrs, 50/50 split on desktop */}
     </SC.Container>
   );
 }

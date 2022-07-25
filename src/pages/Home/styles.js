@@ -1,27 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  //home page content wrapper
   height: 100%;
-  padding-top: 5px;
   overflow-y: auto;
-`;
-
-export const HeroContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+  width: 100%;
 
   @media (min-width: 800px) {
-    flex-direction: row;
+    width: 95%;
   }
-`;
 
-export const RowContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  background-color: yellow;
-
-  @media (min-width: 800px) {
-    flex-direction: row;
+  @media (min-width: 1000px) {
+    width: 90%;
   }
 `;
