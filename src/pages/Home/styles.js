@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   //home page content wrapper
-  height: 100%;
-  overflow-y: auto;
   margin: auto;
   width: 100%;
+  padding-bottom: 50px;
 
   @media (min-width: 800px) {
     width: 95%;

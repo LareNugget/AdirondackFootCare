@@ -10,7 +10,6 @@ export const HoursContainer = styled.div`
   align-items: left;
   width: 100%;
   font-size: 1rem;
-  margin-bottom: 100px;
 
   @media (min-width: 800px) {
     flex-direction: row;
@@ -46,7 +45,6 @@ export const HoursTextContainer = styled.div`
   gap: 20px;
   justify-content: space-evenly;
   align-items: center;
-  padding: 10px;
   margin: 10px;
   background-color: hsl(222, 100%, 0%, 0.5);
   border-radius: 10px;
