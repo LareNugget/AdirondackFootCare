@@ -15,4 +15,5 @@ export const PageContainer = styled.div`
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-position: fixed;
+  overflow-y: auto;
 `;
