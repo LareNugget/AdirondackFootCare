@@ -11,7 +11,7 @@ function OfficeStaff() {
         <SC.Candi>
           <img src={CandiHeadshot} alt="Candida" />
           <SC.BioText>
-            <h3>Candida Hanley</h3>
+            <h2>Candida Hanley</h2>
             <span>Office Manager</span>
             <p>
               Candida has been with Adirondack Foot Care for over 10 years. All
@@ -27,7 +27,7 @@ function OfficeStaff() {
         <SC.Mark>
           <img src={MarkHeadshot} alt="Mark" />
           <SC.BioText>
-            <h3>Mark York</h3>
+            <h2>Mark York</h2>
             <span>Receptionist</span>
             <p>
               Mark is new to the office but has experience in the medical field.

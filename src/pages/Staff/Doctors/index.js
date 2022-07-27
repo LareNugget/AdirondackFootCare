@@ -11,7 +11,7 @@ function Doctors() {
         <SC.Sal>
           <img src={SalHeadshot} alt="Dr. Salvatore Galluzzo" />
           <SC.BioText>
-            <h3>Dr. Salvatore Galluzzo</h3>
+            <h2>Dr. Salvatore Galluzzo</h2>
             <span>Podiatrist and Owner</span>
             <p>
               Salvatore Galluzzo, DPM graduated from New York College of
@@ -30,7 +30,7 @@ function Doctors() {
         <SC.Mason>
           <img src={MasonHeadshot} alt="Dr. Douglas Mason" />
           <SC.BioText>
-            <h3>Dr. Douglas Mason</h3>
+            <h2>Dr. Douglas Mason</h2>
             <span>Podiatrist</span>
             <p>
               Doug Mason DPM has been with Adirondack Foot Care since 2013, he
