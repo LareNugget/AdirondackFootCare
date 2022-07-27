@@ -59,9 +59,11 @@ export const Sal = styled.div`
   flex-direction: column;
   padding: 10px;
   margin: 10px;
-  text-align: left;
+  text-align: center;
   border: 2px solid black;
   background-color: hsl(222, 100%, 0%, 0.5);
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: 1000px) {
     flex-direction: row;
@@ -74,8 +76,10 @@ export const Mason = styled.div`
   padding: 10px;
   margin: 10px;
   border: 2px solid black;
-  text-align: right;
   background-color: hsl(222, 100%, 0%, 0.5);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: 1000px) {
     flex-direction: row-reverse;
@@ -86,11 +90,11 @@ export const BioText = styled.div`
   padding: 10px;
 
   span {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   p {
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 `;
