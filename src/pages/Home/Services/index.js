@@ -3,6 +3,7 @@ import * as SC from "./styles";
 import Dolorclast from "../../../images/dolorclast.png";
 import BioFoam from "../../../images/biofoam.png";
 import SupportBraces from "../../../images/braces.png";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -40,7 +41,9 @@ function Services() {
         <hr />
       </SC.ServiceCardContainer>
       <SC.ButtonContainer>
-        <button>View All Podiatry Services</button>
+        <Link to="/services">
+          <button>View All Podiatry Services</button>
+        </Link>
       </SC.ButtonContainer>
     </SC.ServicesContainer>
   );
