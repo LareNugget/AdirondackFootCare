@@ -1,6 +1,8 @@
 import React from "react";
 import * as SC from "./styles";
 import { GiFootprint } from "react-icons/gi";
+import { Link } from "react-router-dom";
+import PatientPacket from "../../../files/newPatientPacket.pdf";
 
 function Hero() {
   return (
@@ -21,8 +23,12 @@ function Hero() {
           appointment!
         </p>
         <SC.ButtonContainer>
-          <button>New Patient Form</button>
-          <button>Meet Our Staff</button>
+          <a href={PatientPacket} target="_blank" rel="noreferrer">
+            <button>New Patient Form</button>
+          </a>
+          <Link to="/staff">
+            <button>Meet Our Staff</button>
+          </Link>
         </SC.ButtonContainer>
       </SC.HeroTextContainer>
 
