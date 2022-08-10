@@ -85,6 +85,7 @@ export const ButtonContainer = styled.div`
     font-weight: bold;
     border: 2px solid black;
     border-radius: 10px;
+    cursor: pointer;
   }
 `;
 

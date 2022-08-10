@@ -49,6 +49,8 @@ export const ButtonContainer = styled.div`
     padding: 10px;
     font-size: 1em;
 
+    cursor: pointer;
+
     @media (min-width: 800px) {
       font-size: 1.5em;
     }
