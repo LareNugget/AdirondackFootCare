@@ -14,7 +14,7 @@ import Tricare from "../../../images/insurance/tricare.jpg";
 function Insurances() {
   return (
     <SC.Container>
-      <SC.Header>Insurance We Acceptt</SC.Header>
+      <SC.Header>Insurance We Accept</SC.Header>
 
       <SC.CardContainer>
         <img src={Aetna} alt="Aetna" />
