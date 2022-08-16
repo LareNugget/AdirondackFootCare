@@ -2,9 +2,8 @@ import styled from "styled-components";
 import WaitingRoom from "../../images/waitingroom2.jpg";
 
 export const WebsiteContainer = styled.div`
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  overflow-y: hidden;
   background-color: gray;
 `;
 
