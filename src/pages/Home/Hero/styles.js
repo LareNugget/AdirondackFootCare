@@ -111,5 +111,6 @@ export const HeroMapContainer = styled.div`
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
+    background-color: hsla(134, 67%, 87%, 1);
   }
 `;
