@@ -1,8 +1,8 @@
 import React from "react";
 import * as SC from "./styles";
-import Dolorclast from "../../../images/dolorclast.png";
-import BioFoam from "../../../images/biofoam.png";
-import SupportBraces from "../../../images/braces.png";
+import Dolorclast from "../../../images/dolorclast.jpg";
+import BioFoam from "../../../images/biofoam.jpg";
+import SupportBraces from "../../../images/braces.jpg";
 import { Link } from "react-router-dom";
 
 function Services() {
