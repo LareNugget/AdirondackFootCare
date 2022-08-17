@@ -1,5 +1,8 @@
 import React from "react";
 import * as SC from "./styles";
+import Dolorclast from "../../../images/dolorclast.jpg";
+import BioFoam from "../../../images/biofoam.jpg";
+import SupportBraces from "../../../images/braces.jpg";
 
 function ServiceCards() {
   return (
@@ -7,7 +10,7 @@ function ServiceCards() {
       <SC.Header>Services</SC.Header>
       <SC.Bios>
         <SC.Service>
-          <img alt="Swiss Dolorclast" />
+          <img src={Dolorclast} alt="Swiss Dolorclast" />
           <SC.ServiceText>
             <h2>Swiss Dolorclast</h2>
             <span>Inflammation and Pain</span>
@@ -20,7 +23,7 @@ function ServiceCards() {
           </SC.ServiceText>
         </SC.Service>
         <SC.Service>
-          <img alt="Custom Orthotics" />
+          <img src={BioFoam} alt="Custom Orthotics" />
           <SC.ServiceText>
             <h2>Custom Orthotics</h2>
             <span>Arch Support</span>
@@ -34,7 +37,7 @@ function ServiceCards() {
           </SC.ServiceText>
         </SC.Service>
         <SC.Service>
-          <img alt="Support Braces" />
+          <img src={SupportBraces} alt="Support Braces" />
           <SC.ServiceText>
             <h2>Support Braces</h2>
             <span>Injury and Structural Support</span>
