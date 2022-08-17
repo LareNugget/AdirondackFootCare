@@ -2,7 +2,7 @@ import React from "react";
 import * as SC from "./styles";
 import { Link } from "react-router-dom";
 
-function Footer() {
+function Footer({ navButtonPress }) {
   return (
     <SC.Container>
       <SC.BusinessInfo>
@@ -13,14 +13,24 @@ function Footer() {
       </SC.BusinessInfo>
 
       <SC.NavLinks>
-        <Link to="/staff">Meet Our Staff</Link>
-        <Link to="/services">Podiatry Services</Link>
-        <Link to="/products">Podiatry Products</Link>
-        <Link to="/insurance">Insurance Providers</Link>
+        <Link to="/staff" onClick={navButtonPress}>
+          Meet Our Staff
+        </Link>
+        <Link to="/services" onClick={navButtonPress}>
+          Podiatry Services
+        </Link>
+        <Link to="/products" onClick={navButtonPress}>
+          Podiatry Products
+        </Link>
+        <Link to="/insurance" onClick={navButtonPress}>
+          Insurance Providers
+        </Link>
       </SC.NavLinks>
 
       <SC.GalluzzoDev>
-        <div>Website Design Clifton Park</div>
+        <a href="https://www.galluzzo.dev" target="_blank" rel="noreferrer">
+          Website Design Clifton Park
+        </a>
 
         <div>Galluzzo.dev</div>
       </SC.GalluzzoDev>
