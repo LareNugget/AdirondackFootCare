@@ -8,7 +8,7 @@ export const WebsiteContainer = styled.div`
 `;
 
 export const PageContainer = styled.div`
-  height: 100%;
+  min-height: calc(100vh - 60px);
   background-image: url(${WaitingRoom});
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
