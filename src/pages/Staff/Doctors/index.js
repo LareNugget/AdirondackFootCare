@@ -1,6 +1,6 @@
 import React from "react";
 import * as SC from "./styles";
-import SalHeadshot from "../../../images/staff_galluzzo.jpg";
+//import SalHeadshot from "../../../images/staff_galluzzo.jpg";
 import MasonHeadshot from "../../../images/staff_mason.jpg";
 
 function Doctors() {
@@ -9,7 +9,10 @@ function Doctors() {
       <SC.Header>Podiatrists</SC.Header>
       <SC.Bios>
         <SC.Sal>
-          <img src={SalHeadshot} alt="Dr. Salvatore Galluzzo" />
+          <img
+            src="https://adirondack-foot-care.s3.amazonaws.com/images/staff_galluzzo.jpg"
+            alt="Dr. Salvatore Galluzzo"
+          />
           <SC.BioText>
             <h2>Dr. Salvatore Galluzzo</h2>
             <span>Podiatrist and Owner</span>
