@@ -17,9 +17,9 @@ function Hero() {
         </SC.Slogan>
         <p>
           Our Clifton Park practice is located at 954 Route 146 in Fountain
-          Professional Park. We offer a range of professional podiatry services,
-          including custom orthotics and Swiss Dolorclast treatments. We also
-          sell a variety of podiatry products. Call us today to schedule an
+          Professional Park. We offer a range of podiatry services, including
+          custom orthotics and Swiss Dolorclast treatments. We also sell a
+          variety of podiatry products. Call us today to schedule an
           appointment!
         </p>
         <SC.ButtonContainer>
