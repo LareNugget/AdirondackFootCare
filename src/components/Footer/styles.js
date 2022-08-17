@@ -4,6 +4,9 @@ export const Container = styled.div`
   background-color: hsl(222, 100%, 0%, 0.7);
   display: flex;
   flex-direction: column;
+  border-top: 1px solid black;
+  text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    -1px -1px 0 black;
 
   @media (min-width: 800px) {
     flex-direction: row;
@@ -15,8 +18,9 @@ export const BusinessInfo = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: lightgreen;
-  padding: 5px;
+  padding: 10px;
 
   div {
     font-size: 1em;
@@ -24,7 +28,7 @@ export const BusinessInfo = styled.section`
     letter-spacing: 1px;
   }
   span {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   @media (min-width: 800px) {
@@ -42,9 +46,10 @@ export const NavLinks = styled.section`
   padding: 5px;
 
   a {
-    color: gray;
+    color: hsl(0, 0%, 71.76%);
     text-decoration: none;
-    font-size: 0.75em;
+    font-size: 0.8em;
+    letter-spacing: 1px;
 
     :hover {
       color: lightgreen;
@@ -56,16 +61,24 @@ export const GalluzzoDev = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: orange;
+  justify-content: center;
   padding: 5px;
+  color: white;
+
+  a {
+    text-decoration: none;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    color: white;
+
+    :hover {
+      color: hsl(36.07, 100%, 33.92%);
+    }
+  }
 
   div {
-    font-size: 1em;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  span {
-    font-size: 0.8em;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
   }
 
   @media (min-width: 800px) {
