@@ -5,23 +5,18 @@ import NavButtons from "./NavButtons";
 import MenuButton from "./MenuButton";
 import DropdownNavButtons from "./DropdownNavButtons";
 
-function Navbar() {
+function Navbar({ navButtonPress }) {
   const [DropdownActive, setDropdownActive] = useState(false);
 
   const toggleDropdown = () => {
     setDropdownActive((prev) => !prev);
   };
 
-  // Nameplate - Business Logo, Name, Phone Number
-  // NavButtons - Desktop nav buttons for pages
-  // MenuButton = hamburger button to oped dropdown buttons.
-  // DropdownNavButtons - dropdown buttons on menu button press.
-
   return (
     <>
       <SC.Navbar>
         <Nameplate toggleDropdown={toggleDropdown} />
-        <NavButtons />
+        <NavButtons navButtonPress={navButtonPress} />
         <MenuButton
           toggleDropdown={toggleDropdown}
           DropdownActive={DropdownActive}
@@ -30,6 +25,7 @@ function Navbar() {
       <DropdownNavButtons
         toggleDropdown={toggleDropdown}
         DropdownActive={DropdownActive}
+        navButtonPress={navButtonPress}
       />
     </>
   );
