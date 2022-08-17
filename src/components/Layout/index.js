@@ -8,11 +8,15 @@ function Layout({ children }) {
   // Navbar - Navigation, height defined within.
   // PageContainer - Page wrapper. Fills space in WebsiteContainer that navbar doesnt take.
 
+  const navButtonPress = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <SC.WebsiteContainer>
-      <Navbar />
+      <Navbar navButtonPress={navButtonPress} />
       <SC.PageContainer>{children}</SC.PageContainer>
-      <Footer />
+      <Footer navButtonPress={navButtonPress} />
     </SC.WebsiteContainer>
   );
 }
