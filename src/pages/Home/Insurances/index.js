@@ -10,6 +10,7 @@ import Medicare from "../../../images/insurance/medicare.jpg";
 import MVP from "../../../images/insurance/mvp.jpg";
 import Progressive from "../../../images/insurance/progressive.jpg";
 import Tricare from "../../../images/insurance/tricare.jpg";
+import NYSHIP from "../../../images/insurance/nyship.jpg";
 
 function Insurances() {
   return (
@@ -17,13 +18,14 @@ function Insurances() {
       <SC.Header>Insurance We Accept</SC.Header>
 
       <SC.CardContainer>
-        <img src={Aetna} alt="Aetna" />
-        <img src={AARP} alt="AARP" />
-        <img src={Blueshield} alt="Blueshield" />
         <img src={CDPHP} alt="CDPHP" />
-        <img src={Empire} alt="Empire" />
-        <img src={Medicare} alt="Medicare" />
+        <img src={NYSHIP} alt="NYSHIP" />
+        <img src={Blueshield} alt="Blueshield" />
         <img src={MVP} alt="MVP" />
+        <img src={Medicare} alt="Medicare" />
+        <img src={AARP} alt="AARP" />
+        <img src={Aetna} alt="Aetna" />
+        <img src={Empire} alt="Empire" />
         <img src={Progressive} alt="Progressive" />
         <img src={Tricare} alt="Tricare" />
       </SC.CardContainer>
