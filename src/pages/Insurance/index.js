@@ -1,7 +1,15 @@
 import React from "react";
+import * as SC from "./styles";
+import PageLabel from "./PageLabel";
+import InsuranceCards from "./InsuranceCards";
 
 function Insurance() {
-  return <div>Insurance</div>;
+  return (
+    <SC.Container>
+      <PageLabel />
+      <InsuranceCards />
+    </SC.Container>
+  );
 }
 
 export default Insurance;

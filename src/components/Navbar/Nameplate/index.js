@@ -2,7 +2,7 @@ import React from "react";
 import AdirondackLogo from "../../../images/adirondacklogo.png";
 import * as SC from "./styles";
 import { Link } from "react-router-dom";
-import { AiFillPhone } from "react-icons/ai";
+import { BiPhone } from "react-icons/bi";
 
 function Nameplate({ toggleDropdown, DropdownActive }) {
   return (
@@ -11,14 +11,15 @@ function Nameplate({ toggleDropdown, DropdownActive }) {
         <img
           src={AdirondackLogo}
           alt=""
-          style={{ height: "50px", width: "50px" }}
+          style={{ height: "60px", width: "60px" }}
         />
       </Link>
       <SC.NameplateText>
         <SC.BusinessName>ADIRONDACK FOOT CARE</SC.BusinessName>
-        <SC.BusinessAddress>
-          <AiFillPhone /> {"(518) 383-0302"}
-        </SC.BusinessAddress>
+        <SC.BusinessPhone>
+          <BiPhone style={{ fontSize: "1.2rem" }} />
+          <div>(518) 383-0302</div>
+        </SC.BusinessPhone>
       </SC.NameplateText>
     </SC.NameplateContainer>
   );

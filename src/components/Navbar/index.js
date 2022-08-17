@@ -5,7 +5,7 @@ import NavButtons from "./NavButtons";
 import MenuButton from "./MenuButton";
 import DropdownNavButtons from "./DropdownNavButtons";
 
-function Navbar() {
+function Navbar({ navButtonPress }) {
   const [DropdownActive, setDropdownActive] = useState(false);
 
   const toggleDropdown = () => {
@@ -15,20 +15,18 @@ function Navbar() {
   return (
     <>
       <SC.Navbar>
-        <Nameplate toggleDropdown={toggleDropdown} />{" "}
-        {/* Business Logo, Name, Address */}
-        <NavButtons /> {/* Nav Buttons. VIEWS ON med+ screens */}
+        <Nameplate toggleDropdown={toggleDropdown} />
+        <NavButtons navButtonPress={navButtonPress} />
         <MenuButton
           toggleDropdown={toggleDropdown}
           DropdownActive={DropdownActive}
         />
-        {/* Menu Button. VIEWS ON small to med screens */}
       </SC.Navbar>
       <DropdownNavButtons
         toggleDropdown={toggleDropdown}
         DropdownActive={DropdownActive}
+        navButtonPress={navButtonPress}
       />
-      {/* Dropdown Nav Buttons. VIEWS ON small to med screens */}
     </>
   );
 }

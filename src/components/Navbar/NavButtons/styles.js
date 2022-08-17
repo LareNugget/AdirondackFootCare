@@ -13,12 +13,13 @@ export const ButtonContainer = styled.div`
     font-weight: bold;
     border: 0px solid white;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.25rem;
     color: black;
     background-color: hsla(134, 67%, 87%, 1);
 
     :hover {
       background-color: lightgreen;
+      border: 1px solid black;
       cursor: pointer;
     }
   }
