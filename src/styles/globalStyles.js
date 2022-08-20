@@ -32,8 +32,6 @@ export const AdirondackStyles = createGlobalStyle`
 
     //global theme variables
     html {
-        --color-text: red;
-        --color-background: white;
-        --color-primary: rebeccapurple;   
+        overflow-y: hidden; //removes scrollbar that appears outside of all app.js generated html
     }
 `;
