@@ -1,8 +1,8 @@
 import React from "react";
 import * as SC from "./styles";
-import Dolorclast from "../../../images/dolorclast.jpg";
-import BioFoam from "../../../images/biofoam.jpg";
-import SupportBraces from "../../../images/braces.jpg";
+import Dolorclast from "../../../images/dolorclast.webp";
+import BioFoam from "../../../images/biofoam.webp";
+import SupportBraces from "../../../images/braces.webp";
 import { Link } from "react-router-dom";
 
 function Services() {
@@ -26,7 +26,7 @@ function Services() {
           <div>Custom Orthotics</div>
           <p>
             Using BioFoam technology, we can create a custom model of your exact
-            foot shape. This allows for a completely custom orthotic!+
+            foot shape. This allows for a completely custom orthotic!
           </p>
         </SC.ServiceCard>
         <hr />

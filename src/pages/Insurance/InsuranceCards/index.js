@@ -1,15 +1,15 @@
 import React from "react";
 import * as SC from "./styles";
-import AARP from "../../../images/insurance/aarp.jpg";
-import Aetna from "../../../images/insurance/aetna.jpg";
-import Blueshield from "../../../images/insurance/blueshield.jpg";
-import CDPHP from "../../../images/insurance/cdphp.jpg";
-import Empire from "../../../images/insurance/empire.jpg";
-import Medicare from "../../../images/insurance/medicare.jpg";
-import MVP from "../../../images/insurance/mvp.jpg";
-import Progressive from "../../../images/insurance/progressive.jpg";
-import TriCare from "../../../images/insurance/tricare.jpg";
-import NYSHIP from "../../../images/insurance/nyship.jpg";
+import AARP from "../../../images/insurance/aarp.webp";
+import Aetna from "../../../images/insurance/aetna.webp";
+import Blueshield from "../../../images/insurance/blueshield.webp";
+import CDPHP from "../../../images/insurance/cdphp.webp";
+import Empire from "../../../images/insurance/empire.webp";
+import Medicare from "../../../images/insurance/medicare.webp";
+import MVP from "../../../images/insurance/mvp.webp";
+import Progressive from "../../../images/insurance/progressive.webp";
+import TriCare from "../../../images/insurance/tricare.webp";
+import NYSHIP from "../../../images/insurance/nyship.webp";
 
 function InsuranceCards() {
   return (
