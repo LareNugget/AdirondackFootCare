@@ -32,6 +32,5 @@ export const AdirondackStyles = createGlobalStyle`
 
     //global theme variables
     html {
-        overflow-y: hidden; //removes scrollbar that appears outside of all app.js generated html
     }
 `;
