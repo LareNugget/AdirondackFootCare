@@ -1,6 +1,6 @@
 import React from "react";
 import * as SC from "./styles";
-import TreatmentRoom from "../../../images/treatmentroom.jpg";
+import TreatmentRoom from "../../../images/treatmentroom.webp";
 import { IoMdClock } from "react-icons/io";
 
 function Hours() {
