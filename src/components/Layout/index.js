@@ -15,8 +15,10 @@ function Layout({ children }) {
   return (
     <SC.WebsiteContainer>
       <Navbar navButtonPress={navButtonPress} />
-      <SC.PageContainer>{children}</SC.PageContainer>
-      <Footer navButtonPress={navButtonPress} />
+      <SC.PageContainer>
+        {children}
+        <Footer navButtonPress={navButtonPress} />
+      </SC.PageContainer>
     </SC.WebsiteContainer>
   );
 }

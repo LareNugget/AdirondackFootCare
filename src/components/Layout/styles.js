@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import WaitingRoom from "../../images/waitingroom2.jpg";
+import WaitingRoom from "../../images/waitingroom2.webp";
 
 export const WebsiteContainer = styled.div`
   height: 100%;
@@ -8,7 +8,7 @@ export const WebsiteContainer = styled.div`
 `;
 
 export const PageContainer = styled.div`
-  min-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
   background-image: url(${WaitingRoom});
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
