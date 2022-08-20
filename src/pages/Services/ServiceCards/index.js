@@ -1,8 +1,8 @@
 import React from "react";
 import * as SC from "./styles";
-import Dolorclast from "../../../images/dolorclast.jpg";
-import BioFoam from "../../../images/biofoam.jpg";
-import SupportBraces from "../../../images/braces.jpg";
+import Dolorclast from "../../../images/dolorclast.webp";
+import BioFoam from "../../../images/biofoam.webp";
+import SupportBraces from "../../../images/braces.webp";
 
 function ServiceCards() {
   return (
