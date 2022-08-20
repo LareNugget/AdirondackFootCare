@@ -32,8 +32,5 @@ export const AdirondackStyles = createGlobalStyle`
 
     //global theme variables
     html {
-        --color-text: red;
-        --color-background: white;
-        --color-primary: rebeccapurple;   
     }
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import * as SC from "./styles";
-import CandiHeadshot from "../../../images/staff_candida.jpg";
-import MarkHeadshot from "../../../images/staff_mark.jpg";
+import CandiHeadshot from "../../../images/staff_candida.webp";
+import MarkHeadshot from "../../../images/staff_mark.webp";
 
 function OfficeStaff() {
   return (
@@ -34,7 +34,7 @@ function OfficeStaff() {
               You may have seen him at Wellnow in Clifton Park! Mark is a Shen
               graduate and lives locally with his family. In his free time, he
               likes to get out and play golf! He is a great addition to the
-              Adirondack Foot Care team. Please help us welcome him!
+              Adirondack Foot Care team!
             </p>
           </SC.BioText>
         </SC.Mark>

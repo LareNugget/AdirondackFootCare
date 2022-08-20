@@ -1,24 +1,24 @@
 import React from "react";
 import * as SC from "./styles";
-import Alaplex from "../../../images/products/alaplex.jpg";
-import Bare40 from "../../../images/products/bare40.jpg";
-import Betadine from "../../../images/products/betadine.jpg";
-import Colig10 from "../../../images/products/colig10.jpg";
-import FastFreeze from "../../../images/products/fastfreeze.jpg";
-import Formula3 from "../../../images/products/formula3.jpg";
-import Formula7 from "../../../images/products/formula7.jpg";
-import Fortinia from "../../../images/products/fortinia.jpg";
-import Glycylic from "../../../images/products/glycylic.jpg";
-import GelSocks from "../../../images/products/gelsocks.jpg";
-import GreenSoap from "../../../images/products/greensoap.jpg";
-import HempNesic from "../../../images/products/hempnesic.jpg";
-import Kamea20 from "../../../images/products/kamea20.jpg";
-import KameaG from "../../../images/products/kameag.jpg";
-import Luminail from "../../../images/products/luminail.jpg";
-import Orthonesic from "../../../images/products/orthonesic.jpg";
-import Probetic20 from "../../../images/products/probetic20.jpg";
-import ToePack from "../../../images/products/toepack.jpg";
-import Vircin from "../../../images/products/vircin.jpg";
+import Alaplex from "../../../images/products/alaplex.webp";
+import Bare40 from "../../../images/products/bare40.webp";
+import Betadine from "../../../images/products/betadine.webp";
+import Colig10 from "../../../images/products/colig10.webp";
+import FastFreeze from "../../../images/products/fastfreeze.webp";
+import Formula3 from "../../../images/products/formula3.webp";
+import Formula7 from "../../../images/products/formula7.webp";
+import Fortinia from "../../../images/products/fortinia.webp";
+import Glycylic from "../../../images/products/glycylic.webp";
+import GelSocks from "../../../images/products/gelsocks.webp";
+import GreenSoap from "../../../images/products/greensoap.webp";
+import HempNesic from "../../../images/products/hempnesic.webp";
+import Kamea20 from "../../../images/products/kamea20.webp";
+import KameaG from "../../../images/products/kameag.webp";
+import Luminail from "../../../images/products/luminail.webp";
+import Orthonesic from "../../../images/products/orthonesic.webp";
+import Probetic20 from "../../../images/products/probetic20.webp";
+import ToePack from "../../../images/products/toepack.webp";
+import Vircin from "../../../images/products/vircin.webp";
 
 function ProductCards() {
   return (
