@@ -32,7 +32,7 @@ function OfficeStaff() {
             <p>
               Alicia is a new receptionist in 2022 here at Adirondack Foot Care!
               She has a Medical Office Assistant degree from Bryant & Stratton
-              College. She lives local, and enjoys kayaking and campling. She
+              College. She lives local, and enjoys kayaking and camping. She
               also enjoys playing video games with her three kids! Please help
               us in welcoming Alicia to our team!
             </p>
