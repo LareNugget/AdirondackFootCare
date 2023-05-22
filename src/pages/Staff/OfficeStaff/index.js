@@ -1,7 +1,6 @@
 import React from "react";
 import * as SC from "./styles";
 import CandiHeadshot from "../../../images/staff_candida.webp";
-import AliciaHeadshot from "../../../images/staff_alicia.webp";
 
 function OfficeStaff() {
   return (
@@ -24,20 +23,6 @@ function OfficeStaff() {
             </p>
           </SC.BioText>
         </SC.Candi>
-        <SC.Mark>
-          <img src={AliciaHeadshot} alt="Alicia" />
-          <SC.BioText>
-            <h2>Alicia Tarantino</h2>
-            <span>Receptionist</span>
-            <p>
-              Alicia is a new receptionist in 2022 here at Adirondack Foot Care!
-              She has a Medical Office Assistant degree from Bryant & Stratton
-              College. She lives local, and enjoys kayaking and camping. She
-              also enjoys playing video games with her three kids! Please help
-              us in welcoming Alicia to our team!
-            </p>
-          </SC.BioText>
-        </SC.Mark>
       </SC.Bios>
     </SC.Container>
   );
